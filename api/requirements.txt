@@ -4,3 +4,7 @@ torchivision
 numpy
 pandas
 matplotlib
+flask
+tensorflow
+pip
+python-3.11

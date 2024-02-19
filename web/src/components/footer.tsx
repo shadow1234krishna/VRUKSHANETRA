@@ -35,9 +35,7 @@ export default function Footer() {
             <Button variant="link" asChild>
               <Link href="/home">Home</Link>
             </Button>
-            <Button variant="link" asChild>
-              <Link href="/about">About</Link>
-            </Button>
+
           </ul>
         </div>
         <div className="flex flex-col items-center">
@@ -49,7 +47,7 @@ export default function Footer() {
           <ul className="w-2/3 flex flex-col mt-2">
             <Button variant="link" asChild>
               <Link
-                href="https://github.com/Deveesh-Shetty/rudraksh"
+                href="https://github.com/shadow1234krishna/Rudraksh-disease-detetction-plant"
                 target="_blank"
                 className="flex items-center gap-2"
               >
@@ -61,7 +59,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="bg-accent/50 text-center py-4">
-        <p>&#169; Copyrights - Team Rudra {new Date().getFullYear()}</p>
+        <p>&#169; Copyrights - @2023-Nischal {new Date().getFullYear()}</p>
       </div>
     </footer>
   )
